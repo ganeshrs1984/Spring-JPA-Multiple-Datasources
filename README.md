@@ -6,8 +6,4 @@ Springboot  JPA dealing Multiple Datasources
    
 # Interesting points to look
   
-  To connect to two databases we need to manually configure a DataSource -> EntityManagerFactory -> and JpaTransactionManager. This is done in CustomerConfig and OrderConfig.  
-  
-    # Datasource Config
-     ProfileDatasourceJPAConfig.java
-     TechDatasourceJPAConfig.java
+  To connect to two databases we need to manually configure a DataSource -> EntityManagerFactory -> and JpaTransactionManager. This is done in ProfileDatasourceJPAConfig and TechDatasourceJPAConfig.  
